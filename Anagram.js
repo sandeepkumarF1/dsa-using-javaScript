@@ -20,3 +20,14 @@ function isAnagram(str1, str2) {
 
 const output = isAnagram("hello", "llheo");
 console.log(output);
+
+// 2nd Method
+
+const isAnagram2 = function(s, t){
+
+  return s.split("").sort().join("") === t.split("").sort().join("");
+  
+}
+
+const output2 = isAnagram2("anagram", "nagaram");
+console.log(output2);
