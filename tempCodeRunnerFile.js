@@ -1,3 +1,1 @@
-if(str1.length !== str2.length){
-//       return false;
-//   }
+            // console.log(i,nums[i], j, nums[j])
